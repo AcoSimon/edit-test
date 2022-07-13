@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+        /* Paleta de colores y tamaños generales de letras: */
+        :root{
+            /* --------------  Ejercicio 01: -------------- */
+            /* Paleta de colores */
+            --background: #F3F3F3;
+            --backgroundPanel: rgba(30, 24, 45, 0.8);
+            --icobackground: #f8f9fbf7;
+            --backgroundHover: #1E222D;
+            --cardColor: #fff;
+            --letterBasic: #000;
+            --letterTit: #000;
+            --letterCard: #000;
+            /*Medidas:*/
+            --fontSizeTitMain: 4rem;
+            --fontSizeTitSec: 1.1rem;
+            --fontSize: 0.8rem;
+        }
+
+        /* --------- ETIQUETAS: --------- */
+        body{
+            background-color: var(--background);
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+        h1{
+            color: var(--letterTit);
+            font-size: var(--fontSizeTitMain);
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+        h2{
+            color: var(--letterTit);
+            font-size: var(--fontSizeTitSec);
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+        h3{
+            color: var(--letterBasic);
+            font-size: var(--fontSizeTitSec);
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+        p{
+            font-size: var(--fontSize);
+            color: var(--letterBasic);
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+        video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 105%;
+            min-height: 100%;
+            transform: translateX(calc((100% - 100vw) / 2));
+            z-index: -2;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            text-align: right;
+            margin-left: 93%;
+            filter: brightness(50%);
+        }
+        hr{
+            color: #F3F3F3;
+            max-width: 80%;
+            text-align: center;
+        }
+        /* --------- CLASES: --------- */
+        .panel{
+            margin: 3%;
+            padding: 2%;
+            border-radius: 14px;
+            background-color: var(--backgroundPanel); 
+        }
+        .card{
+            background-color: var(--background);
+            margin: 3%;
+            max-width: 20rem !important;
+        }
+        .card:hover{
+            background-color: var(--backgroundHover);
+            color: var(--cardColor) !important;
+        }
+        .card-grup{
+            margin-bottom: 2%;
+        }    
+        .card-title{
+            font-size: var(--fontSizeTitSec);
+        }
+        .txt1{
+            font-weight: bold;
+            font-size: 1.0rem;
+        }
+        .txt2{
+            font-size: 0.8rem;
+        }
+        .txt3{
+            font-size: 0.4rem;
+        }
+        .tit3{
+            text-decoration: underline;
+            color: var(--cardColor);
+            font-weight: 500;
+        }

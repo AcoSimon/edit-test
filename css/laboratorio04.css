@@ -1,0 +1,72 @@
+  /* Paleta de colores y tamaños generales de letras: */
+  :root{
+    /* --------------  Ejercicio 02: -------------- */
+    /* Paleta de colores */
+    --background: #1E1E1E;
+    --letterTit: #6A9949;
+    --letter: #4FB8FD;
+    --line: #D7AB4C;
+    /* Letras: */
+    --fontSizeTit: 1rem;
+    --fontFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva' , 'Verdana' , 'sans-serif';
+  }
+  /* ETIQUETAS: */
+  body{
+    background-color: var(--background);
+    font-family: var(--fontFamily);
+    font-size: var(--fontSize);
+    color: var(--letter);
+  }
+  h1{
+    color: var(--letterTit);
+    font-size: var(--fontSizeTit);
+    text-align: center;
+    margin: 2% 0%;
+  }
+  h3{
+    text-align: center;
+    font-size: var(--fontSize);
+  }
+  table{
+    margin: 0% 8%;
+    border: 2px solid var(--line);
+    width: 50%;
+  }
+  th{
+    width: 150px;
+  }
+  tr{
+    border: 2px solid var(--line);
+  }
+  hr{
+    max-width: 60%;
+    border-color: var(--line);
+    margin-bottom: 2%;
+  }
+  table{
+    margin-left: 25%;
+  }
+  /* CLASES: */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #b2123b;
+    color: white;
+  }

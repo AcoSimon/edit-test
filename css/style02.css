@@ -1,0 +1,39 @@
+        /* Paleta de colores y tamaños generales de letras: */
+        :root{
+            /* --------------  Ejercicio 02: -------------- */
+            /* Paleta de colores */
+            --background: #289688;
+            --letterTit: #FCEA3E;
+            --borderColor: #fff;
+            --fontSizeTit: 2.5rem;
+        }
+        /* ETIQUETAS: */
+        body{
+            background-color: var(--background);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: var(--fontSize);
+            /* Centrar todo el contenido: */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: var(--letterTit);
+            font-size: var(--fontSizeTit);
+            text-align: center;
+        }
+        /* CLASES: */
+        .tit{
+            margin: 1.5% 0%;
+        }
+        .containerImg{
+            padding: 1% 1%;
+        }
+        .picRestaurant{
+            border: 7px solid var(--borderColor);
+            margin: 0.5%;
+            max-height: 150px;
+            height: 150px;
+        }

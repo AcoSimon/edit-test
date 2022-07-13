@@ -1,0 +1,37 @@
+        /* Paleta de colores y tamaños generales de letras: */
+        :root{
+            /* --------------  Ejercicio 02: -------------- */
+            /* Paleta de colores */
+            --background: #1E1E1E;
+            --letterTit: #6A9949;
+            --letter: #4FB8FD;
+            --line: #D7AB4C;
+            /* Letras: */
+            --fontSizeTit: 1rem;
+            --fontFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva' , 'Verdana' , 'sans-serif';
+        }
+        /* ETIQUETAS: */
+        body{
+            background-color: var(--background);
+            font-family: var(--fontFamily);
+            font-size: var(--fontSize);
+            color: var(--letter);
+        }
+        h1{
+            color: var(--letterTit);
+            font-size: var(--fontSize);
+            text-align: center;
+            margin: 2% 0%;
+        }
+        table{
+            margin: 0% 8%;
+            border: 2px solid var(--line);
+        }
+        th{
+            width: 150px;
+        }
+        hr{
+            max-width: 60%;
+            border-color: var(--line);
+            margin-bottom: 2%;
+        }

@@ -1,0 +1,23 @@
+        /* Paleta de colores y tamaños generales de letras: */
+        :root{
+            /* --------------  Ejercicio 02: -------------- */
+            /* Paleta de colores */
+            --background: #fff;
+            --letterTit: #BB5397;
+            --letter: #3C63AE;
+            /* Letras: */
+            --fontSizeTit: 1rem;
+            --fontFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva' , 'Verdana' , 'sans-serif';
+        }
+        /* ETIQUETAS: */
+        body{
+            background-color: var(--background);
+            font-family: var(--fontFamily);
+            font-size: var(--fontSize);
+        }
+        p{
+            color: var(--letter);
+        }
+        .tit{
+            color: var(--letterTit);
+        }

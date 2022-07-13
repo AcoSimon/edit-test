@@ -1,0 +1,88 @@
+        /* Paleta de colores y tamaños generales de letras: */
+        :root{
+            /* --------------  Ejercicio 01: -------------- */
+            /* Paleta de colores */
+            --background: #2A3035;
+            --backgroundTtit: #fff;
+            --letterBasic: #DFE8EB;
+            --letterTit: #698293;
+            --aspiradora:#E3C9C8;
+            --celulares: #9FBFD1;
+            --consolas:#BEBAB9;
+            --homeTheaters: #8D96A5;
+            --televisores:#B0B1AD;
+            /*Medidas:*/
+            --fontSizeTitMain: 4rem;
+            --fontSize: 0.8rem;
+            --fontSizeTitSec: 1.6rem;
+        }
+        /* ETIQUETAS: */
+        body{
+            background-color: var(--background);
+            color: var(--letterBasic);
+            font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+            font-size: var(--fontSize);
+        }
+        h1{
+            font-family: 'Impact', 'Charcoal', 'sans-serif';
+        }
+        h2{
+            font-family: 'Arial', 'Gadget', 'sans-serif';
+            font-weight: 900;
+        }
+        /* CLASES: */
+        .boxTit{
+            background-color: var(--backgroundTtit);
+            color: var(--letterTit);
+        }
+        .titMain{
+            font-size: var(--fontSizeTitMain);
+            text-align: center;
+            font-weight: bold;
+            align-items: center;
+        }
+        .boxContent{
+            margin: 1%;
+        }
+        .titSec{
+            font-style: italic;
+            font-size: var(--fontSizeTitSec);
+        }
+        .img{
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            margin-left: 5%;
+        }
+        .img:hover{
+            box-shadow: rgb(0 0 0 / 15%) 2.4px 2.4px 3.2px;
+        }
+        /* ID: */
+        #titSec01{
+            color: var(--aspiradora);
+        }
+        #img01{
+            border-color: var(--aspiradora);;
+        }
+        #titSec02{
+            color: var(--celulares);
+        }
+        #img02{
+            border-color: var(--celulares);;
+        }
+        #titSec03{
+            color: var(--consolas);
+        }
+        #img03{
+            border-color: var(--consolas);
+        }
+        #titSec04{
+            color: var(--homeTheaters);
+        }
+        #img04{
+            border-color: var(--homeTheaters);
+        }
+        #titSec05{
+            color: var(--televisores);
+        }
+        #img05{
+            border-color: var(--televisores);
+        }
