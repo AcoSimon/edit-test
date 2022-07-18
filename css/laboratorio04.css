@@ -17,6 +17,10 @@
     font-size: var(--fontSize);
     color: var(--letter);
   }
+  footer{
+    margin-top: 2rem;
+    font-size: 0.6rem;
+  }
   h1{
     color: var(--letterTit);
     font-size: var(--fontSizeTit);
@@ -28,23 +32,18 @@
     font-size: var(--fontSize);
   }
   table{
-    margin: 0% 8%;
     border: 2px solid var(--line);
-    width: 50%;
   }
   th{
-    width: 150px;
+    max-width: 350px;
   }
   tr{
     border: 2px solid var(--line);
   }
   hr{
-    max-width: 60%;
+    max-width: 70%;
     border-color: var(--line);
     margin-bottom: 2%;
-  }
-  table{
-    margin-left: 25%;
   }
   /* CLASES: */
   .topnav {
